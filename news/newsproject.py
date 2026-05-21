@@ -70,7 +70,6 @@ response = requests.get(url)
 data = response.json()
 
 articles = data["articles"]
-
 # ------------------------
 # STEP 3: CREATE DATAFRAME
 # ------------------------
